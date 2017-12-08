@@ -7,6 +7,7 @@ import { Document } from './document';
   templateUrl: 'documents.component.html'
 })
 export class DocumentsComponent {
+  pageTitle: string = "DocumentDashboard"
   documents: Document[] = [
     {
       title: "My First Doc",
